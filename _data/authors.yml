@@ -1,9 +1,13 @@
 ## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
 # -------------------------------------
-# {author_id}:
-#   name: {full name}
-#   twitter: {twitter_of_author}
-#   url: {homepage_of_author}
+arthur_chiron:
+  name: Arthur Chiron
+thomas_deltort:
+  name: Thomas Deltort
+thomas_massena:
+  name: Thomas Massena
+thibault_boissin:
+  name: Thibault Boissin
 # -------------------------------------
 
 cotes:
