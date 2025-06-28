@@ -1,27 +1,35 @@
 ---
 title: Building and Training 1-Lipschitz Neural Networks
+description: In this blog post, we aim to help users understand how we can effectively build 1-Lipschitz Neural Networks and how we can train them efficiently.
 math: true
 authors: [arthur_chiron, thomas_deltort, thomas_massena, thibault_boissin]
-description: We show how we can build and train 1-Lipschitz Neural Networks
 toc: true
 ---
 
-## Title 1
+Neural Networks are functions that inherently possess a Lipschitz constant:
 
-$$
-    f(x) = ax + b
-$$
+> __Definition.__ 
 
-### Sub-title 1
+Often forgotten, it plays a central role in its behaving. 
 
-$$
-    g(x) = cx + d
-$$
+## How to build 1-Lipschitz Neural Networks?
 
-### Sub-title 2
+### The composition rule
 
-#### Sub-sub-title 1
+### Linear layers
 
-#### Sub-sub-title 2
+### Convolutional layers
 
-## Title 2
+### Normalization layers
+
+### Activation functions
+
+## How to train 1-Lipschitz Neural Networks?
+
+### The price to pay
+
+Coût d'entraînement plus élevé...
+
+### Loss functions
+
+Importance de la température pour la cross-entropy, hkr...
